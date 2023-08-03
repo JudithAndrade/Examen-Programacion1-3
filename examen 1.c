@@ -4,7 +4,7 @@
 void sumale(int posicion, int suma, int *arreglo, int tamano) {
     // Verificar que la posición sea válida
     if (posicion < 0 || posicion >= tamano) {
-        printf("Posicion invalida. No se puede realizar la suma.\n");
+        printf(" No se puede realizar la suma.\n");
         return;
     }
 
