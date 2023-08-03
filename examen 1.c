@@ -45,7 +45,7 @@ int main() {
 
     int *arreglo = (int *)malloc(tamano * sizeof(int));
 
-    printf("Ingrese los %d elementos del arreglo separados por espacios: ", tamano);
+    printf("Ingrese los %d elementos del arreglo: ", tamano);
     for (int i = 0; i < tamano; i++) {
         scanf("%d", &arreglo[i]);
     }
