@@ -30,7 +30,6 @@ void sumale(int posicion, int suma, int *arreglo, int tamano) {
             }
         }
     }
-
     // Imprimir el resultado
     printf("Resultado: [");
     for (int i = 0; i < tamano - 1; i++) {
@@ -59,7 +58,7 @@ int main() {
 
     int posicion, suma;
     while (1) {
-        printf("Ingrese la posicion y el valor de suma separados por espacios: ");
+        printf("Ingrese la posicion y el valor de suma: ");
         if (scanf("%d %d", &posicion, &suma) != 2) {
             printf("Entrada inválida. Saliendo del programa.\n");
             break;
